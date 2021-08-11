@@ -9,23 +9,62 @@
 /* Begin PBXBuildFile section */
 		D206FCA626BF0C76002CEA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCA526BF0C76002CEA81 /* AppDelegate.swift */; };
 		D206FCA826BF0C76002CEA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCA726BF0C76002CEA81 /* SceneDelegate.swift */; };
-		D206FCAA26BF0C76002CEA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCA926BF0C76002CEA81 /* ViewController.swift */; };
-		D206FCAD26BF0C76002CEA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D206FCAB26BF0C76002CEA81 /* Main.storyboard */; };
 		D206FCAF26BF0C78002CEA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D206FCAE26BF0C78002CEA81 /* Assets.xcassets */; };
 		D206FCB226BF0C78002CEA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D206FCB026BF0C78002CEA81 /* LaunchScreen.storyboard */; };
-		D206FCBD26BF0C78002CEA81 /* GloriaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCBC26BF0C78002CEA81 /* GloriaDemoTests.swift */; };
-		D206FCC826BF0C78002CEA81 /* GloriaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCC726BF0C78002CEA81 /* GloriaDemoUITests.swift */; };
+		D206FCDD26BF26B5002CEA81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCDC26BF26B5002CEA81 /* MainViewController.swift */; };
+		D206FCE326C0585B002CEA81 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCE226C0585B002CEA81 /* MainViewModel.swift */; };
+		D206FCEA26C066F2002CEA81 /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D206FCE926C066F2002CEA81 /* CustomTabBar.xib */; };
+		D206FCEC26C06713002CEA81 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCEB26C06713002CEA81 /* CustomTabBar.swift */; };
+		D206FCF526C07105002CEA81 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCF426C07105002CEA81 /* View+Extension.swift */; };
+		D206FCF826C0736F002CEA81 /* TapBarViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCF726C0736F002CEA81 /* TapBarViewControllers.swift */; };
+		D206FCFA26C0838D002CEA81 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCF926C0838D002CEA81 /* NotificationViewController.swift */; };
+		D206FCFC26C083DC002CEA81 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCFB26C083DC002CEA81 /* NotificationViewModel.swift */; };
+		D206FCFE26C08A03002CEA81 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCFD26C08A03002CEA81 /* MainCoordinator.swift */; };
+		D206FD0026C08CA8002CEA81 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FCFF26C08CA8002CEA81 /* Color+Extension.swift */; };
+		D206FD0326C0A1AC002CEA81 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD0226C0A1AC002CEA81 /* NotificationCell.swift */; };
+		D206FD0626C0A3A5002CEA81 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD0526C0A3A5002CEA81 /* CellProtocol.swift */; };
+		D206FD1426C0ABD7002CEA81 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0926C0ABD7002CEA81 /* OpenSans-SemiBold.ttf */; };
+		D206FD1526C0ABD7002CEA81 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0A26C0ABD7002CEA81 /* OpenSans-Light.ttf */; };
+		D206FD1626C0ABD7002CEA81 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0B26C0ABD7002CEA81 /* OpenSans-Italic.ttf */; };
+		D206FD1726C0ABD7002CEA81 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0C26C0ABD7002CEA81 /* OpenSans-ExtraBold.ttf */; };
+		D206FD1826C0ABD7002CEA81 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0D26C0ABD7002CEA81 /* OpenSans-LightItalic.ttf */; };
+		D206FD1926C0ABD7002CEA81 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0E26C0ABD7002CEA81 /* OpenSans-Bold.ttf */; };
+		D206FD1A26C0ABD7002CEA81 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD0F26C0ABD7002CEA81 /* OpenSans-SemiBoldItalic.ttf */; };
+		D206FD1B26C0ABD7002CEA81 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD1026C0ABD7002CEA81 /* OpenSans-ExtraBoldItalic.ttf */; };
+		D206FD1C26C0ABD7002CEA81 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D206FD1126C0ABD7002CEA81 /* LICENSE.txt */; };
+		D206FD1D26C0ABD7002CEA81 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD1226C0ABD7002CEA81 /* OpenSans-Regular.ttf */; };
+		D206FD1E26C0ABD7002CEA81 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D206FD1326C0ABD7002CEA81 /* OpenSans-BoldItalic.ttf */; };
+		D206FD2026C0ABFB002CEA81 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD1F26C0ABFB002CEA81 /* Font.swift */; };
+		D206FD2226C0DD4C002CEA81 /* GLNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD2126C0DD4C002CEA81 /* GLNotification.swift */; };
+		D206FD2626C1A485002CEA81 /* NotificationDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD2526C1A485002CEA81 /* NotificationDataRepository.swift */; };
+		D206FD2926C1A6DB002CEA81 /* NotificationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD2826C1A6DB002CEA81 /* NotificationDataSource.swift */; };
+		D206FD2C26C1A918002CEA81 /* NotificationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD2B26C1A918002CEA81 /* NotificationDTO.swift */; };
+		D206FD3226C1AF54002CEA81 /* Notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = D206FD3126C1AF54002CEA81 /* Notifications.json */; };
+		D206FD3426C1C1BA002CEA81 /* NotificationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3326C1C1BA002CEA81 /* NotificationCoordinator.swift */; };
+		D206FD3626C1C35E002CEA81 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3526C1C35E002CEA81 /* CoordinatorProtocol.swift */; };
+		D206FD3826C1D6B0002CEA81 /* NotificationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3726C1D6B0002CEA81 /* NotificationCellViewModel.swift */; };
+		D206FD3A26C1F87F002CEA81 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3926C1F87F002CEA81 /* UIViewController+Extension.swift */; };
+		D206FD3C26C2046C002CEA81 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3B26C2046C002CEA81 /* String+Extension.swift */; };
+		D206FD4226C21689002CEA81 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4126C21689002CEA81 /* ProfileViewController.swift */; };
+		D206FD4426C216CF002CEA81 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4326C216CF002CEA81 /* ProfileCoordinator.swift */; };
+		D206FD4626C217F2002CEA81 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4526C217F2002CEA81 /* ProfileViewModel.swift */; };
+		D206FD4826C307AB002CEA81 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4726C307AB002CEA81 /* CustomViewController.swift */; };
+		D206FD4A26C32E33002CEA81 /* ProfileDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4926C32E33002CEA81 /* ProfileDTO.swift */; };
+		D206FD4C26C331BD002CEA81 /* Profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D206FD4B26C331BD002CEA81 /* Profile.json */; };
+		D206FD4E26C333CE002CEA81 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4D26C333CE002CEA81 /* ProfileDataSource.swift */; };
+		D206FD5026C3346F002CEA81 /* ProfileDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD4F26C3346F002CEA81 /* ProfileDataRepository.swift */; };
+		D206FD5226C3349B002CEA81 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD5126C3349B002CEA81 /* Profile.swift */; };
+		D206FD5626C349D1002CEA81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D206FD5526C349D1002CEA81 /* Localizable.strings */; };
+		D206FD5A26C34B58002CEA81 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD5926C34B58002CEA81 /* Localizable.swift */; };
+		D206FD5D26C356F0002CEA81 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD5C26C356F0002CEA81 /* ItemCollectionViewCell.swift */; };
+		D206FD6226C367B3002CEA81 /* LocalNotificationRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD6126C367B3002CEA81 /* LocalNotificationRepositoryMock.swift */; };
+		D206FD6626C36C2B002CEA81 /* NotificationViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD6526C36C2B002CEA81 /* NotificationViewModelTest.swift */; };
+		D206FD6826C36C6D002CEA81 /* NotificationCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD6726C36C6D002CEA81 /* NotificationCoordinatorMock.swift */; };
+		D206FD6A26C3711F002CEA81 /* TestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206FD6926C3711F002CEA81 /* TestMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D206FCB926BF0C78002CEA81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D206FC9A26BF0C76002CEA81 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D206FCA126BF0C76002CEA81;
-			remoteInfo = GloriaDemo;
-		};
-		D206FCC426BF0C78002CEA81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D206FC9A26BF0C76002CEA81 /* Project object */;
 			proxyType = 1;
@@ -38,17 +77,62 @@
 		D206FCA226BF0C76002CEA81 /* GloriaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloriaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D206FCA526BF0C76002CEA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D206FCA726BF0C76002CEA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D206FCA926BF0C76002CEA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D206FCAC26BF0C76002CEA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D206FCAE26BF0C78002CEA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D206FCB126BF0C78002CEA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D206FCB326BF0C78002CEA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D206FCB826BF0C78002CEA81 /* GloriaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D206FCBC26BF0C78002CEA81 /* GloriaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriaDemoTests.swift; sourceTree = "<group>"; };
 		D206FCBE26BF0C78002CEA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D206FCC326BF0C78002CEA81 /* GloriaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D206FCC726BF0C78002CEA81 /* GloriaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriaDemoUITests.swift; sourceTree = "<group>"; };
-		D206FCC926BF0C78002CEA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D206FCDC26BF26B5002CEA81 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D206FCE226C0585B002CEA81 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D206FCE926C066F2002CEA81 /* CustomTabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBar.xib; sourceTree = "<group>"; };
+		D206FCEB26C06713002CEA81 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		D206FCF426C07105002CEA81 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		D206FCF726C0736F002CEA81 /* TapBarViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewControllers.swift; sourceTree = "<group>"; };
+		D206FCF926C0838D002CEA81 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		D206FCFB26C083DC002CEA81 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		D206FCFD26C08A03002CEA81 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D206FCFF26C08CA8002CEA81 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D206FD0226C0A1AC002CEA81 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		D206FD0526C0A3A5002CEA81 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		D206FD0926C0ABD7002CEA81 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D206FD0A26C0ABD7002CEA81 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		D206FD0B26C0ABD7002CEA81 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		D206FD0C26C0ABD7002CEA81 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D206FD0D26C0ABD7002CEA81 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D206FD0E26C0ABD7002CEA81 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		D206FD0F26C0ABD7002CEA81 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D206FD1026C0ABD7002CEA81 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D206FD1126C0ABD7002CEA81 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D206FD1226C0ABD7002CEA81 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D206FD1326C0ABD7002CEA81 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D206FD1F26C0ABFB002CEA81 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		D206FD2126C0DD4C002CEA81 /* GLNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNotification.swift; sourceTree = "<group>"; };
+		D206FD2526C1A485002CEA81 /* NotificationDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDataRepository.swift; sourceTree = "<group>"; };
+		D206FD2826C1A6DB002CEA81 /* NotificationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDataSource.swift; sourceTree = "<group>"; };
+		D206FD2B26C1A918002CEA81 /* NotificationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDTO.swift; sourceTree = "<group>"; };
+		D206FD3126C1AF54002CEA81 /* Notifications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Notifications.json; sourceTree = "<group>"; };
+		D206FD3326C1C1BA002CEA81 /* NotificationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCoordinator.swift; sourceTree = "<group>"; };
+		D206FD3526C1C35E002CEA81 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		D206FD3726C1D6B0002CEA81 /* NotificationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellViewModel.swift; sourceTree = "<group>"; };
+		D206FD3926C1F87F002CEA81 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D206FD3B26C2046C002CEA81 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D206FD4126C21689002CEA81 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D206FD4326C216CF002CEA81 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		D206FD4526C217F2002CEA81 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D206FD4726C307AB002CEA81 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		D206FD4926C32E33002CEA81 /* ProfileDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDTO.swift; sourceTree = "<group>"; };
+		D206FD4B26C331BD002CEA81 /* Profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Profile.json; sourceTree = "<group>"; };
+		D206FD4D26C333CE002CEA81 /* ProfileDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataSource.swift; sourceTree = "<group>"; };
+		D206FD4F26C3346F002CEA81 /* ProfileDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataRepository.swift; sourceTree = "<group>"; };
+		D206FD5126C3349B002CEA81 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D206FD5526C349D1002CEA81 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D206FD5926C34B58002CEA81 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		D206FD5C26C356F0002CEA81 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D206FD6026C367B3002CEA81 /* GloriaDemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GloriaDemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D206FD6126C367B3002CEA81 /* LocalNotificationRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationRepositoryMock.swift; sourceTree = "<group>"; };
+		D206FD6526C36C2B002CEA81 /* NotificationViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModelTest.swift; sourceTree = "<group>"; };
+		D206FD6726C36C6D002CEA81 /* NotificationCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCoordinatorMock.swift; sourceTree = "<group>"; };
+		D206FD6926C3711F002CEA81 /* TestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +150,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D206FCC026BF0C78002CEA81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +158,6 @@
 			children = (
 				D206FCA426BF0C76002CEA81 /* GloriaDemo */,
 				D206FCBB26BF0C78002CEA81 /* GloriaDemoTests */,
-				D206FCC626BF0C78002CEA81 /* GloriaDemoUITests */,
 				D206FCA326BF0C76002CEA81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +167,6 @@
 			children = (
 				D206FCA226BF0C76002CEA81 /* GloriaDemo.app */,
 				D206FCB826BF0C78002CEA81 /* GloriaDemoTests.xctest */,
-				D206FCC326BF0C78002CEA81 /* GloriaDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +174,13 @@
 		D206FCA426BF0C76002CEA81 /* GloriaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D206FD2326C1A225002CEA81 /* Infrastructure */,
+				D206FCF226C070D7002CEA81 /* Resources */,
+				D206FCE626C066BE002CEA81 /* Utilities */,
+				D206FCD926BF16F5002CEA81 /* Core */,
+				D206FCD826BF16C2002CEA81 /* Flows */,
 				D206FCA526BF0C76002CEA81 /* AppDelegate.swift */,
 				D206FCA726BF0C76002CEA81 /* SceneDelegate.swift */,
-				D206FCA926BF0C76002CEA81 /* ViewController.swift */,
-				D206FCAB26BF0C76002CEA81 /* Main.storyboard */,
-				D206FCAE26BF0C78002CEA81 /* Assets.xcassets */,
 				D206FCB026BF0C78002CEA81 /* LaunchScreen.storyboard */,
 				D206FCB326BF0C78002CEA81 /* Info.plist */,
 			);
@@ -113,19 +190,329 @@
 		D206FCBB26BF0C78002CEA81 /* GloriaDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D206FCBC26BF0C78002CEA81 /* GloriaDemoTests.swift */,
+				D206FD6426C36BCB002CEA81 /* Tests */,
+				D206FD5F26C36651002CEA81 /* Mock */,
 				D206FCBE26BF0C78002CEA81 /* Info.plist */,
 			);
 			path = GloriaDemoTests;
 			sourceTree = "<group>";
 		};
-		D206FCC626BF0C78002CEA81 /* GloriaDemoUITests */ = {
+		D206FCD826BF16C2002CEA81 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				D206FCC726BF0C78002CEA81 /* GloriaDemoUITests.swift */,
-				D206FCC926BF0C78002CEA81 /* Info.plist */,
+				D206FD3D26C2146E002CEA81 /* Profile */,
+				D206FCED26C07096002CEA81 /* Notification */,
+				D206FCDB26BF2654002CEA81 /* Main */,
 			);
-			path = GloriaDemoUITests;
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		D206FCD926BF16F5002CEA81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCDA26BF16FD002CEA81 /* Model */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D206FCDA26BF16FD002CEA81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD2126C0DD4C002CEA81 /* GLNotification.swift */,
+				D206FD5126C3349B002CEA81 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D206FCDB26BF2654002CEA81 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCE126C057DF002CEA81 /* Coordinator */,
+				D206FCDF26C057CD002CEA81 /* ViewModel */,
+				D206FCDE26C057AC002CEA81 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D206FCDE26C057AC002CEA81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCDC26BF26B5002CEA81 /* MainViewController.swift */,
+				D206FCF726C0736F002CEA81 /* TapBarViewControllers.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D206FCDF26C057CD002CEA81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCE226C0585B002CEA81 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D206FCE126C057DF002CEA81 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCFD26C08A03002CEA81 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D206FCE626C066BE002CEA81 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0426C0A38B002CEA81 /* Protocol */,
+				D206FCE726C066CE002CEA81 /* View */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D206FCE726C066CE002CEA81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD4726C307AB002CEA81 /* CustomViewController.swift */,
+				D206FCE826C066DC002CEA81 /* Tabbar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D206FCE826C066DC002CEA81 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCE926C066F2002CEA81 /* CustomTabBar.xib */,
+				D206FCEB26C06713002CEA81 /* CustomTabBar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D206FCED26C07096002CEA81 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCF026C070B0002CEA81 /* Coodinator */,
+				D206FCEF26C070A4002CEA81 /* ViewModel */,
+				D206FCEE26C0709F002CEA81 /* View */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		D206FCEE26C0709F002CEA81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0126C0A196002CEA81 /* Cell */,
+				D206FCF926C0838D002CEA81 /* NotificationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D206FCEF26C070A4002CEA81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCFB26C083DC002CEA81 /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D206FCF026C070B0002CEA81 /* Coodinator */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD3326C1C1BA002CEA81 /* NotificationCoordinator.swift */,
+			);
+			path = Coodinator;
+			sourceTree = "<group>";
+		};
+		D206FCF226C070D7002CEA81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD5426C34983002CEA81 /* Assets */,
+				D206FD5326C3497B002CEA81 /* Localizable */,
+				D206FD0726C0ABCC002CEA81 /* Font */,
+				D206FCF326C070E3002CEA81 /* Extension */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D206FCF326C070E3002CEA81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCF426C07105002CEA81 /* View+Extension.swift */,
+				D206FCFF26C08CA8002CEA81 /* Color+Extension.swift */,
+				D206FD3926C1F87F002CEA81 /* UIViewController+Extension.swift */,
+				D206FD3B26C2046C002CEA81 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D206FD0126C0A196002CEA81 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0226C0A1AC002CEA81 /* NotificationCell.swift */,
+				D206FD3726C1D6B0002CEA81 /* NotificationCellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D206FD0426C0A38B002CEA81 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0526C0A3A5002CEA81 /* CellProtocol.swift */,
+				D206FD3526C1C35E002CEA81 /* CoordinatorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D206FD0726C0ABCC002CEA81 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0826C0ABD7002CEA81 /* Open_Sans */,
+				D206FD1F26C0ABFB002CEA81 /* Font.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D206FD0826C0ABD7002CEA81 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD0926C0ABD7002CEA81 /* OpenSans-SemiBold.ttf */,
+				D206FD0A26C0ABD7002CEA81 /* OpenSans-Light.ttf */,
+				D206FD0B26C0ABD7002CEA81 /* OpenSans-Italic.ttf */,
+				D206FD0C26C0ABD7002CEA81 /* OpenSans-ExtraBold.ttf */,
+				D206FD0D26C0ABD7002CEA81 /* OpenSans-LightItalic.ttf */,
+				D206FD0E26C0ABD7002CEA81 /* OpenSans-Bold.ttf */,
+				D206FD0F26C0ABD7002CEA81 /* OpenSans-SemiBoldItalic.ttf */,
+				D206FD1026C0ABD7002CEA81 /* OpenSans-ExtraBoldItalic.ttf */,
+				D206FD1126C0ABD7002CEA81 /* LICENSE.txt */,
+				D206FD1226C0ABD7002CEA81 /* OpenSans-Regular.ttf */,
+				D206FD1326C0ABD7002CEA81 /* OpenSans-BoldItalic.ttf */,
+			);
+			name = Open_Sans;
+			path = ../../../../../Downloads/Open_Sans;
+			sourceTree = "<group>";
+		};
+		D206FD2326C1A225002CEA81 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD5E26C3645B002CEA81 /* LocalJson */,
+				D206FD2A26C1A8FD002CEA81 /* DTOs */,
+				D206FD2726C1A612002CEA81 /* DataSource */,
+				D206FD2426C1A424002CEA81 /* Repository */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D206FD2426C1A424002CEA81 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD2526C1A485002CEA81 /* NotificationDataRepository.swift */,
+				D206FD4F26C3346F002CEA81 /* ProfileDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D206FD2726C1A612002CEA81 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD2826C1A6DB002CEA81 /* NotificationDataSource.swift */,
+				D206FD4D26C333CE002CEA81 /* ProfileDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D206FD2A26C1A8FD002CEA81 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD2B26C1A918002CEA81 /* NotificationDTO.swift */,
+				D206FD4926C32E33002CEA81 /* ProfileDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		D206FD3D26C2146E002CEA81 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD3E26C21476002CEA81 /* Coodinator */,
+				D206FD3F26C21484002CEA81 /* ViewModel */,
+				D206FD4026C21493002CEA81 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D206FD3E26C21476002CEA81 /* Coodinator */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD4326C216CF002CEA81 /* ProfileCoordinator.swift */,
+			);
+			path = Coodinator;
+			sourceTree = "<group>";
+		};
+		D206FD3F26C21484002CEA81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD4526C217F2002CEA81 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D206FD4026C21493002CEA81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD5B26C356D2002CEA81 /* Cell */,
+				D206FD4126C21689002CEA81 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D206FD5326C3497B002CEA81 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD5526C349D1002CEA81 /* Localizable.strings */,
+				D206FD5926C34B58002CEA81 /* Localizable.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		D206FD5426C34983002CEA81 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D206FCAE26BF0C78002CEA81 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D206FD5B26C356D2002CEA81 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD5C26C356F0002CEA81 /* ItemCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D206FD5E26C3645B002CEA81 /* LocalJson */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD4B26C331BD002CEA81 /* Profile.json */,
+				D206FD3126C1AF54002CEA81 /* Notifications.json */,
+			);
+			path = LocalJson;
+			sourceTree = "<group>";
+		};
+		D206FD5F26C36651002CEA81 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD6726C36C6D002CEA81 /* NotificationCoordinatorMock.swift */,
+				D206FD6126C367B3002CEA81 /* LocalNotificationRepositoryMock.swift */,
+				D206FD6026C367B3002CEA81 /* GloriaDemoTests-Bridging-Header.h */,
+				D206FD6926C3711F002CEA81 /* TestMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D206FD6426C36BCB002CEA81 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D206FD6526C36C2B002CEA81 /* NotificationViewModelTest.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +553,6 @@
 			productReference = D206FCB826BF0C78002CEA81 /* GloriaDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D206FCC226BF0C78002CEA81 /* GloriaDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D206FCD226BF0C78002CEA81 /* Build configuration list for PBXNativeTarget "GloriaDemoUITests" */;
-			buildPhases = (
-				D206FCBF26BF0C78002CEA81 /* Sources */,
-				D206FCC026BF0C78002CEA81 /* Frameworks */,
-				D206FCC126BF0C78002CEA81 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D206FCC526BF0C78002CEA81 /* PBXTargetDependency */,
-			);
-			name = GloriaDemoUITests;
-			productName = GloriaDemoUITests;
-			productReference = D206FCC326BF0C78002CEA81 /* GloriaDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +567,7 @@
 					};
 					D206FCB726BF0C78002CEA81 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = D206FCA126BF0C76002CEA81;
-					};
-					D206FCC226BF0C78002CEA81 = {
-						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = D206FCA126BF0C76002CEA81;
 					};
 				};
@@ -221,7 +587,6 @@
 			targets = (
 				D206FCA126BF0C76002CEA81 /* GloriaDemo */,
 				D206FCB726BF0C78002CEA81 /* GloriaDemoTests */,
-				D206FCC226BF0C78002CEA81 /* GloriaDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +596,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D206FD5626C349D1002CEA81 /* Localizable.strings in Resources */,
+				D206FD1C26C0ABD7002CEA81 /* LICENSE.txt in Resources */,
+				D206FD1426C0ABD7002CEA81 /* OpenSans-SemiBold.ttf in Resources */,
+				D206FCEA26C066F2002CEA81 /* CustomTabBar.xib in Resources */,
+				D206FD1726C0ABD7002CEA81 /* OpenSans-ExtraBold.ttf in Resources */,
 				D206FCB226BF0C78002CEA81 /* LaunchScreen.storyboard in Resources */,
+				D206FD3226C1AF54002CEA81 /* Notifications.json in Resources */,
+				D206FD1A26C0ABD7002CEA81 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				D206FD1626C0ABD7002CEA81 /* OpenSans-Italic.ttf in Resources */,
+				D206FD4C26C331BD002CEA81 /* Profile.json in Resources */,
+				D206FD1926C0ABD7002CEA81 /* OpenSans-Bold.ttf in Resources */,
+				D206FD1526C0ABD7002CEA81 /* OpenSans-Light.ttf in Resources */,
+				D206FD1826C0ABD7002CEA81 /* OpenSans-LightItalic.ttf in Resources */,
+				D206FD1E26C0ABD7002CEA81 /* OpenSans-BoldItalic.ttf in Resources */,
+				D206FD1B26C0ABD7002CEA81 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				D206FD1D26C0ABD7002CEA81 /* OpenSans-Regular.ttf in Resources */,
 				D206FCAF26BF0C78002CEA81 /* Assets.xcassets in Resources */,
-				D206FCAD26BF0C76002CEA81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D206FCB626BF0C78002CEA81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D206FCC126BF0C78002CEA81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +630,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D206FCAA26BF0C76002CEA81 /* ViewController.swift in Sources */,
+				D206FD4826C307AB002CEA81 /* CustomViewController.swift in Sources */,
 				D206FCA626BF0C76002CEA81 /* AppDelegate.swift in Sources */,
+				D206FD0626C0A3A5002CEA81 /* CellProtocol.swift in Sources */,
+				D206FD3826C1D6B0002CEA81 /* NotificationCellViewModel.swift in Sources */,
+				D206FD3426C1C1BA002CEA81 /* NotificationCoordinator.swift in Sources */,
+				D206FD2026C0ABFB002CEA81 /* Font.swift in Sources */,
+				D206FCF826C0736F002CEA81 /* TapBarViewControllers.swift in Sources */,
+				D206FD4226C21689002CEA81 /* ProfileViewController.swift in Sources */,
+				D206FCFA26C0838D002CEA81 /* NotificationViewController.swift in Sources */,
+				D206FD5226C3349B002CEA81 /* Profile.swift in Sources */,
+				D206FD4E26C333CE002CEA81 /* ProfileDataSource.swift in Sources */,
+				D206FCFE26C08A03002CEA81 /* MainCoordinator.swift in Sources */,
+				D206FD5D26C356F0002CEA81 /* ItemCollectionViewCell.swift in Sources */,
+				D206FD5026C3346F002CEA81 /* ProfileDataRepository.swift in Sources */,
+				D206FD0326C0A1AC002CEA81 /* NotificationCell.swift in Sources */,
+				D206FD5A26C34B58002CEA81 /* Localizable.swift in Sources */,
+				D206FD4626C217F2002CEA81 /* ProfileViewModel.swift in Sources */,
+				D206FCEC26C06713002CEA81 /* CustomTabBar.swift in Sources */,
+				D206FD2626C1A485002CEA81 /* NotificationDataRepository.swift in Sources */,
+				D206FCDD26BF26B5002CEA81 /* MainViewController.swift in Sources */,
+				D206FD4A26C32E33002CEA81 /* ProfileDTO.swift in Sources */,
+				D206FD3C26C2046C002CEA81 /* String+Extension.swift in Sources */,
+				D206FD3A26C1F87F002CEA81 /* UIViewController+Extension.swift in Sources */,
+				D206FCFC26C083DC002CEA81 /* NotificationViewModel.swift in Sources */,
 				D206FCA826BF0C76002CEA81 /* SceneDelegate.swift in Sources */,
+				D206FD2226C0DD4C002CEA81 /* GLNotification.swift in Sources */,
+				D206FCF526C07105002CEA81 /* View+Extension.swift in Sources */,
+				D206FD2C26C1A918002CEA81 /* NotificationDTO.swift in Sources */,
+				D206FD4426C216CF002CEA81 /* ProfileCoordinator.swift in Sources */,
+				D206FD0026C08CA8002CEA81 /* Color+Extension.swift in Sources */,
+				D206FD2926C1A6DB002CEA81 /* NotificationDataSource.swift in Sources */,
+				D206FD3626C1C35E002CEA81 /* CoordinatorProtocol.swift in Sources */,
+				D206FCE326C0585B002CEA81 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +670,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D206FCBD26BF0C78002CEA81 /* GloriaDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D206FCBF26BF0C78002CEA81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D206FCC826BF0C78002CEA81 /* GloriaDemoUITests.swift in Sources */,
+				D206FD6226C367B3002CEA81 /* LocalNotificationRepositoryMock.swift in Sources */,
+				D206FD6826C36C6D002CEA81 /* NotificationCoordinatorMock.swift in Sources */,
+				D206FD6626C36C2B002CEA81 /* NotificationViewModelTest.swift in Sources */,
+				D206FD6A26C3711F002CEA81 /* TestMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,22 +685,9 @@
 			target = D206FCA126BF0C76002CEA81 /* GloriaDemo */;
 			targetProxy = D206FCB926BF0C78002CEA81 /* PBXContainerItemProxy */;
 		};
-		D206FCC526BF0C78002CEA81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D206FCA126BF0C76002CEA81 /* GloriaDemo */;
-			targetProxy = D206FCC426BF0C78002CEA81 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D206FCAB26BF0C76002CEA81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D206FCAC26BF0C76002CEA81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D206FCB026BF0C78002CEA81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +750,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +805,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +823,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BMJ284DP;
 				INFOPLIST_FILE = GloriaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +831,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +843,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BMJ284DP;
 				INFOPLIST_FILE = GloriaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +851,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -474,10 +860,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BMJ284DP;
 				INFOPLIST_FILE = GloriaDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +872,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GloriaDemoTests/Mock/GloriaDemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloriaDemo.app/GloriaDemo";
@@ -496,10 +885,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BMJ284DP;
 				INFOPLIST_FILE = GloriaDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,49 +897,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GloriaDemoTests/Mock/GloriaDemoTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloriaDemo.app/GloriaDemo";
-			};
-			name = Release;
-		};
-		D206FCD326BF0C78002CEA81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48BMJ284DP;
-				INFOPLIST_FILE = GloriaDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GloriaDemo;
-			};
-			name = Debug;
-		};
-		D206FCD426BF0C78002CEA81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48BMJ284DP;
-				INFOPLIST_FILE = GloriaDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevo.GloriaDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GloriaDemo;
 			};
 			name = Release;
 		};
@@ -579,15 +930,6 @@
 			buildConfigurations = (
 				D206FCD026BF0C78002CEA81 /* Debug */,
 				D206FCD126BF0C78002CEA81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D206FCD226BF0C78002CEA81 /* Build configuration list for PBXNativeTarget "GloriaDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D206FCD326BF0C78002CEA81 /* Debug */,
-				D206FCD426BF0C78002CEA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

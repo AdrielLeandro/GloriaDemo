@@ -1,0 +1,59 @@
+[
+        {
+            "id": "0",
+            "text": "Matteo liked your video",
+            "highlightText": "Matteo",
+            "photo": "example-1",
+            "status": false,
+            "notificationType": "message"
+        },
+        {
+            "id": "1",
+            "text": "matias is now following you",
+            "highlightText": "matias",
+            "photo": "example-2",
+            "status": false,
+            "notificationType": "profile",
+            "profileId": "12"
+        },
+        {
+            "id": "2",
+            "text": "There's a new challenge for you to check out",
+            "highlightText": "",
+            "photo": "example-3",
+            "status": false,
+            "notificationType": "message"
+        },
+        {
+            "id": "3",
+            "text": "New Toilet Paper Challenge. Check it out!",
+            "highlightText": "Toilet Paper Challenge",
+            "photo": "example-5",
+            "status": true,
+            "notificationType": "message"
+        },
+        {
+            "id": "4",
+            "text": "Check out Anton's profile",
+            "highlightText": "Anton",
+            "status": true,
+            "notificationType": "message"
+        },
+        {
+            "id": "5",
+            "text": "Here is a new video we like",
+            "highlightText": "new video",
+            "photo": "example-6",
+            "status": true,
+            "notificationType": "message"
+        },
+        {
+            "id": "6",
+            "text": "Here is a profile we like",
+            "highlightText": "profile",
+            "photo": "example-4",
+            "status": true,
+            "notificationType": "message"
+        }
+
+]

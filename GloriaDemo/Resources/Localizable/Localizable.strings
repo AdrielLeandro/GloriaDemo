@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  GloriaDemo
+
+  Created by Adriel Pinzas on 10/08/21.
+  
+*/
+
+"profile.number-videos" = "%d Videos";
+"profile.number-followers" = "%d Followers";
+"profile.number-followings" = "%d Followings";
+"notification.title" = "notifications";
+"main.contact" = "Contact";
+"main.more" = "More";
