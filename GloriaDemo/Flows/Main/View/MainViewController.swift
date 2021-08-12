@@ -12,8 +12,8 @@ class MainViewController: UITabBarController {
     
     private lazy var customTabBar: CustomTabBar = {
         let tabBar: CustomTabBar = CustomTabBar.fromNib()
-        tabBar.frame = CGRect(x: 0, y: view.bounds.height - 50, width: view.bounds.width, height: 50)
         tabBar.delegate = self
+        tabBar.translatesAutoresizingMaskIntoConstraints = false
         UITabBar.appearance().shadowImage = UIImage()
         UITabBar.appearance().backgroundImage = UIImage()
         viewControllers = [FirstViewController(), SecondViewController()]
@@ -57,6 +57,13 @@ class MainViewController: UITabBarController {
         customTabBar.selectedItem = firstItem
         view.addSubview(customTabBar)
         customTabBar.addSubview(middleButton)
+        
+        NSLayoutConstraint.activate([
+            customTabBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            customTabBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            customTabBar.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            customTabBar.heightAnchor.constraint(equalTo: tabBar.heightAnchor)
+        ])
     }
     
     @objc private func didTouchMiddleButton(sender: UIButton) {
